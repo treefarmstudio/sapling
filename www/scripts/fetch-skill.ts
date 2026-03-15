@@ -2,7 +2,7 @@ import { writeFile } from "node:fs/promises";
 
 export async function fetchSkill() {
   const url =
-    "https://raw.githubusercontent.com/treefarmstudio/sapling/main/skills/sapling/SKILL.md";
+    "https://raw.githubusercontent.com/treefarmstudio/sapling/main/skills/sapling-island/SKILL.md";
   try {
     const response = await fetch(url);
     if (!response.ok) {
