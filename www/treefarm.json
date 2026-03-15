@@ -1,0 +1,7 @@
+{
+  "name": "saplingislands-www",
+  "startCommand": "npm start",
+  "buildCommand": "npm run build",
+  "organizationId": "45699b80-e6a3-4807-88e3-aec986f96b8a",
+  "projectId": "31838736-d895-4317-8db5-569c436edf33"
+}

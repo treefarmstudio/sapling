@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@source "../pages";
+@source "../components";
+@source "../layouts";
+@source "../../scripts";
+@source "../content";
+
+@theme {
+  --font-sans: "Open Sans", sans-serif;
+  --font-heading: "Cabinet Grotesk", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+  --font-serif: "Instrument Serif", serif;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-primary: var(--color-primary);
+  --color-muted: var(--color-muted);
+}
+
+@custom-variant dark (@media (prefers-color-scheme: dark));
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+  }
+}
