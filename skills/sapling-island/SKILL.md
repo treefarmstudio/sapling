@@ -1,5 +1,5 @@
 ---
-name: sapling
+name: sapling-island
 description: Guide for using the <sapling-island> web component to implement selective hydration and islands architecture. Use this skill when asked to use Sapling for an interactive section, contact form, or to add animations triggered by visibility or other loading strategies using sapling-island.
 ---
 
