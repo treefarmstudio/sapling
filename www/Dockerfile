@@ -13,8 +13,8 @@ RUN npm ci --ignore-scripts && node node_modules/esbuild/install.js
 
 # Copy only files needed for the build
 COPY src ./src
+COPY scripts ./scripts
 COPY vite.config.ts ./
-COPY tailwind.config.ts ./
 COPY tsconfig.json ./
 
 # Build server and client
